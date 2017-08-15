@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: darkgray;
+  padding: 1em;
+  margin: 0;
+}
+
+p.welcome {
+  float: right;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 0.4em 0.75em;
+  background-color: lightgray;
+  border-radius: 0.2em;
+  text-align: center;
+}
+
+ul li a:hover {
+  background-color: gray;
+  color: white;
+}
+
+article {
+  padding: 1em;
+}
+
+input,
+button {
+  font-size: 1.2em;
+}
